@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  post "/webhook", to: "main#create"
+  post "/api/v1/webhook", to: "main#create"
 end
